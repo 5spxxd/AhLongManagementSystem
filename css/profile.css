@@ -1,0 +1,81 @@
+body {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    align-items: top;
+    background: url('pharmacy.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
+  }
+  
+
+.navbar {
+    background-color:rgba(240, 240, 240, 0.8);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: top;
+    position: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+}
+
+.navbar li {
+    margin: 100px 10px;
+}
+
+.navbar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+ul , li {
+
+    list-style: none;
+    display: flex;
+    padding: 0em;
+    margin: 0;
+}
+li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin: 0.5em;
+    padding: 10px 15px;
+    color: #ff7f50;
+    border-radius: 5px;
+}
+
+li:hover{
+
+    background-color: white;
+    box-shadow: -12px ;
+    filter: blur(2px);
+}
+
+.navbar a:hover {
+    background-color: whitesmoke;
+    
+}
+
+.navbar-text {
+    margin-right: 10px;
+}
+.welcome-text{
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
